@@ -1,7 +1,24 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
 
-int main(int argc, char** argv) {
+int main() 
+{
+	int cervejas, refri, espetos;
+	string sexo;
+	
+	cout << "Sexo: ";
+	cin >> sexo;
+	
+	cout << "Quantidade de cervejas: ";
+	cin >> cervejas;
+	
+	cout << "Quantidade de refrigerantes: ";
+	cin >> refri;
+	
+	cout << "Quantidade de espetinhos: ";
+	cin >> espetos;
+	
+	
 	return 0;
 }
